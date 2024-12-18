@@ -41,3 +41,14 @@ int main() {
     printf("\n");
     return EXIT_SUCCESS;
 }
+
+// gcc-14 -o c4 c4.c -fopenmp
+// ./c4
+// Enter first number: 1
+// Enter second number: 2
+// Enter third number: 3
+
+// Smallest number: 1
+// Largest number: 3
+
+// Execution Time: 4.430621
